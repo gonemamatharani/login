@@ -11,12 +11,16 @@
         <form onsubmit="submitfunction(event); return false;" class="form_container">
                 <label >Enter Name</label>
                 <input id="form_name" type="text" name="name" placeholder="Enter Name" autocomplete="on">
+                <p id="name_err"></p>
                 <label >Enter Email</label>
                 <input id="form_email" type="email" name="email" placeholder="Enter Email address" autocomplete="on">
+                <p id="email_err"></p>
                 <label >Enter new password</label>
                 <input id="form_password" type="password" name="password" placeholder="Enter New Password" autocomplete="on">
-            
-            <button  style="margin-top: 25px;">Submit</button>
+                <p id="password_err"></p>
+                <div style="text-align: center;">
+                    <button style="margin-top: 25px;">Submit</button>
+                </div>
         </form>
     </div>
 </body>

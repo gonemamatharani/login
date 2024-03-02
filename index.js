@@ -13,7 +13,7 @@ function submitfunction(event) {
     } else if (password.value === '') {
         alert('Please enter password');
     } else {
-        alert(nam.value);
+        alert(`your details logged succesfully:  ${nam.value}`);
         arr.push({ name: nam.value, email: email.value, password: password.value });
         console.log(arr);
     }

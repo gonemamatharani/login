@@ -1,0 +1,18 @@
+.form_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+    background-color: rgb(102, 238, 109);
+    box-shadow: 0cqh;
+    padding: 30px;
+}
+.main_container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
